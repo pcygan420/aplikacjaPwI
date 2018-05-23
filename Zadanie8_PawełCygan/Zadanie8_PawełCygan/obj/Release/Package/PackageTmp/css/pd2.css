@@ -1,0 +1,53 @@
+.game-info {
+	margin: 0 auto;
+	margin-top: 5%;
+	height: 100px; width: 600px;
+}
+
+.stats {
+	text-align: center;
+}
+
+.turn, .stats {
+	height: 50%; width: 100%;
+	
+	font-size: 30px;
+}
+
+.turn > span:first-child {
+	margin-left: 35%;
+}
+
+.circle-info, .cross-info, .draw-info {
+	height: 100%; width: 33.3333%;
+	display: inline-block;
+	
+	float: left;
+	font-size: 18px;
+}
+
+.game-space {		
+	margin: 0 auto;
+	margin-top: 50px;
+	height: 600px; width: 600px;
+	
+	background-color: black;
+	color: white;
+	
+}
+
+.game-table {
+	border-spacing: 0px;
+}
+
+.game-table td {
+    height: 200px; width: 200px;
+	
+	font-size: 100px;
+}
+
+.game-table td {
+	border: 1px solid white;
+	text-align:center; 
+    vertical-align:middle; !important
+}

@@ -1,0 +1,234 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #fcfcfc; }
+
+/* scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px; }
+
+::-webkit-scrollbar-track {
+  background-color: #7a7a7a;
+  box-shadow: inset 0 0 1px grey; }
+
+::-webkit-scrollbar-thumb {
+  background: #212121; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #212121; }
+
+/*------------------*/
+a {
+  font-size: 20px;
+  line-height: 50px;
+  color: white;
+  text-decoration: none; }
+
+.services h1 {
+  text-align: center; }
+
+.services h6 {
+    font-weight: normal;
+    text-align: center;
+    color: #969696;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu {
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%); }
+  .menu li {
+    height: 50px;
+    width: 120px;
+    margin: 50px 20px 0 0;
+    display: inline-block;
+    background-color: #383838; }
+    .menu li:hover {
+      cursor: pointer;
+      color: gray; }
+      .menu li:hover ul {
+        display: block; }
+    .menu li a {
+      display: inline-block;
+      height: 100%;
+      width: 100%; }
+
+.options:before {
+  position: relative;
+  left: 70px;
+  font-family: FontAwesome;
+  content: "\f107"; }
+  .options:before:hover {
+    position: relative;
+    left: 70px;
+    font-family: FontAwesome;
+    content: "\f106"; }
+
+.menu > li > ul > li {
+  display: block;
+  height: 50px;
+  width: 120px;
+  z-index: 20;
+  background-color: gray; }
+
+.options > a {
+  margin-left: -10px; }
+
+li {
+  display: block;
+  text-align: center; }
+  li:hover a {
+    color: #e2e2e2; }
+  li ul {
+    top: 67px;
+    margin-left: -40px;
+    position: absolute;
+    display: none;
+    color: black; }
+
+.top {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  color: white;
+  background-color: #383838; }
+
+#main-container {
+  margin: 0 auto;
+  width: 100%;
+  min-width:800px;
+   }
+
+.about-me {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    padding: 25px 0 25px 0;
+    }
+  .about-me div {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 20px;
+    text-indent: 50px; }
+  .about-me img {
+    margin-right: 10%;
+  }
+
+.about-me h1 {
+    margin-left: 10%;
+}
+
+.services {
+  min-height: 500px;
+  width: 100%;
+  margin-top: 50px; }
+
+.helper-container {
+    display: block;
+    width: 100%;
+    padding: 25px 0 25px 0; }
+    .helper-container > div {
+    width: 70%;
+    margin: 0 auto;
+    }
+
+.single-service {
+    position: relative;
+    display: inline-block;
+    height: 350px;
+    width: 22.7%;
+    margin-left: 1%;
+    margin-right: 1%;
+    min-width: 300px;
+    opacity: 0.75;
+    transition: 0.5s ease;
+    -webkit-box-shadow: 10px 10px 9px -11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 9px -11px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 9px -11px rgba(0, 0, 0, 0.75); }
+  .single-service:hover {
+    cursor: pointer;
+    opacity: 1; }
+  .single-service h2 {
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 50px; }
+  .single-service img {
+    position: absolute;
+    display: inline-block;
+    margin-top: 25%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); }
+  .single-service span {
+    position: absolute;
+    display: inline-block;
+    width: 80%;
+    margin-top: 65%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    text-indent: 25px; }
+
+/*-----------------*/
+.success-section {
+    min-height: 500px;
+    width: 100%;
+    margin-top: 50px; }
+    .success-section h1 {
+    text-align: center; }
+    .success-section h6 {
+    font-weight: normal;
+    text-align: center;
+    color: #969696; }
+
+.success-section-container {
+    display: block;
+    width: 100%;
+    padding: 25px 0 25px 0; }
+    .success-section-container > div {
+    width: 70%;
+    margin: 0 auto; }
+
+.success-section-image {
+    position: relative;
+    display: inline-block;
+    height: 340px;
+    width: 31%;
+    margin-left: 1%;
+    margin-right: 1%;
+    min-width: 300px; }
+    .success-section-image img {
+    position: absolute;
+    display: inline-block;
+    margin-top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); }
+    .success-section-image h2 {
+    text-align: center;
+    }
+
+.footer {
+    height: 50px;
+    width: 100%;
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+    background-color: #aaaaaa;
+}
+  .footer span {
+    line-height: 50px;
+    bottom: 0;
+    color: white;
+    font-size: 18px; }
+/*# sourceMappingURL=pd1.css.map */
