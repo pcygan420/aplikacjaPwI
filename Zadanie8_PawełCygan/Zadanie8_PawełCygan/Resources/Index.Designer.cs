@@ -61,6 +61,29 @@ namespace Zadanie8_PawełCygan.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Senegal got Africa’s first win of the World Cup with a 2-1 victory over Poland in Moscow on Tuesday. The team was helped by two fluky goals: a deflection, and a score by a player who was apparently unnoticed by the Poland defense. &lt;br&gt;&lt;br&gt;
+        ///
+        ///                In the 37th minute of an evenly matched game, Sadio Mane held the ball for a moment, then found the perfect pass to Idrissa Gueye. He fired at goal, and it took a carom off Poland’s Thiago Cionek and zipped into the net.
+        ///                It was bad luck [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string About1 {
+            get {
+                return ResourceManager.GetString("About1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Except that Senegal’s M’Baye Niang had left the field and just at that moment had been approved by the ref to return. He spotted the action and raced to the ball with Bednarik completely unaware. &lt;br&gt;&lt;br&gt;
+        ///                Keeper Wojciech Szczesney figured out the situation and sped a good 40 yards out from his net. But it was too late. Niang got the ball and cruised toward the empty net for the easiest, though strangest, of scores. &lt;br&gt;&lt;br&gt;
+        ///                Poland Coach Adam Nawałka on same play: “I’m convi [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string About2 {
+            get {
+                return ResourceManager.GetString("About2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Service&apos;s offers.
         /// </summary>
         public static string Offer {
@@ -70,11 +93,56 @@ namespace Zadanie8_PawełCygan.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Services connected with computer hardware and services of data processing..
+        /// </summary>
+        public static string ServiceDesc {
+            get {
+                return ResourceManager.GetString("ServiceDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Service.
+        /// </summary>
+        public static string ServiceHeader {
+            get {
+                return ResourceManager.GetString("ServiceHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Services offered by me..
+        /// </summary>
+        public static string ServicesFirstHeader {
+            get {
+                return ResourceManager.GetString("ServicesFirstHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Successes.
         /// </summary>
         public static string Success {
             get {
                 return ResourceManager.GetString("Success", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Successes accomplished by me..
+        /// </summary>
+        public static string SuccessesFirstHeader {
+            get {
+                return ResourceManager.GetString("SuccessesFirstHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Success.
+        /// </summary>
+        public static string SuccessHeader {
+            get {
+                return ResourceManager.GetString("SuccessHeader", resourceCulture);
             }
         }
     }

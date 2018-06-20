@@ -203,6 +203,7 @@
     <Content Include="Images\cog.jpg" />
     <Content Include="Images\computer.png" />
     <Content Include="Images\free-image.jpg" />
+    <Content Include="Images\PolSen.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">

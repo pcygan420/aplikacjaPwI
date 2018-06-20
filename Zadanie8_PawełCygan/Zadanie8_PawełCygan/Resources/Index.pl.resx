@@ -117,10 +117,35 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="About1" xml:space="preserve">
+    <value>Senegal odniósł pierwsze zwycięstwo na mistrzostwach świata w meczu przeciwko Polsce, który zakończył się rezultatem 2-1 we wtorek, w Moskwie. Drużynie pomogły dwa szczęśliwe gole: samobój, oraz gol zawodnika, którego nie zauważyła Polska obrona. &lt;br&gt;&lt;br&gt;
+W 37 minucie wyrównanego spotkania, Sadio Mane przez chwilę holował futbolówkę, następnie znalazł idealne podanie do Idrissa Gueye. Uderzył w światło bramki, piłka zmieniła tor po trafieniu w zawodnika Polski, Thiago Cionka i wpadła do bramki. Było to pechowe dla Polaków, mimo to Senegal wyszedł na prowadzenie. &lt;br&gt;&lt;br&gt;
+</value>
+  </data>
+  <data name="About2" xml:space="preserve">
+    <value>M'Baye Niang opuścił boisko i zaraz pojawił się z powrotem na boisku za pozwoleniem sędziego. Dostrzegł okazję i rozpoczął rajd do piłki, przy której był kompletnie nieświadomy zagrożenia Bednarek. &lt;br&gt;&lt;br&gt;
+Bramkarz, Wojciech Szczęsny dostrzeł zagrożenie i przebiegł dobre 40 yardów od swojej bramki. Jednak było już za późno. Niang przejął piłkę i zdobył najłatwiejszą, mimo to najdziwniejszą, z bramek. &lt;br&gt;&lt;br&gt;
+"Kiedy opuściłem boisko, Polska atakowała", Niang mówi po meczu. "Kiedy wróciłem zobaczyłem piłkę wracającą do defensywy. Poczułem, że jest to szansa".</value>
+  </data>
   <data name="Offer" xml:space="preserve">
     <value>Oferty usług</value>
   </data>
+  <data name="ServiceDesc" xml:space="preserve">
+    <value>Usługi związane z sprzętem komputerowym oraz usługi przetwarzania danych.</value>
+  </data>
+  <data name="ServiceHeader" xml:space="preserve">
+    <value>Usługa</value>
+  </data>
+  <data name="ServicesFirstHeader" xml:space="preserve">
+    <value>Oferowane przeze mnie usługi.</value>
+  </data>
   <data name="Success" xml:space="preserve">
     <value>Sukcesy</value>
+  </data>
+  <data name="SuccessesFirstHeader" xml:space="preserve">
+    <value>Sukcesy osiągnięte przeze mnie.</value>
+  </data>
+  <data name="SuccessHeader" xml:space="preserve">
+    <value>Sukces</value>
   </data>
 </root>

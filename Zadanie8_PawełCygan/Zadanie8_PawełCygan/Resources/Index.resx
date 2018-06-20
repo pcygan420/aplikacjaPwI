@@ -117,10 +117,39 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="About1" xml:space="preserve">
+    <value>Senegal got Africa’s first win of the World Cup with a 2-1 victory over Poland in Moscow on Tuesday. The team was helped by two fluky goals: a deflection, and a score by a player who was apparently unnoticed by the Poland defense. &lt;br&gt;&lt;br&gt;
+
+                In the 37th minute of an evenly matched game, Sadio Mane held the ball for a moment, then found the perfect pass to Idrissa Gueye. He fired at goal, and it took a carom off Poland’s Thiago Cionek and zipped into the net.
+                It was bad luck for Poland, but put Senegal ahead. Senegal’s second goal, in the 60th minute, was even more bizarre. Grzegorz
+                Krychowiak of Poland passed the ball back, toward Jan Bednarek, the last defender, near the center circle. A routine play. &lt;br&gt;&lt;br&gt;
+
+                </value>
+  </data>
+  <data name="About2" xml:space="preserve">
+    <value>Except that Senegal’s M’Baye Niang had left the field and just at that moment had been approved by the ref to return. He spotted the action and raced to the ball with Bednarik completely unaware. &lt;br&gt;&lt;br&gt;
+                Keeper Wojciech Szczesney figured out the situation and sped a good 40 yards out from his net. But it was too late. Niang got the ball and cruised toward the empty net for the easiest, though strangest, of scores. &lt;br&gt;&lt;br&gt;
+                Poland Coach Adam Nawałka on same play: “I’m convinced that Bednarek did not see the player on the side, and there was a misunderstanding. Szczesney tried to save the situation but he missed.”</value>
+  </data>
   <data name="Offer" xml:space="preserve">
     <value>Service's offers</value>
   </data>
+  <data name="ServiceDesc" xml:space="preserve">
+    <value>Services connected with computer hardware and services of data processing.</value>
+  </data>
+  <data name="ServiceHeader" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="ServicesFirstHeader" xml:space="preserve">
+    <value>Services offered by me.</value>
+  </data>
   <data name="Success" xml:space="preserve">
     <value>Successes</value>
+  </data>
+  <data name="SuccessesFirstHeader" xml:space="preserve">
+    <value>Successes accomplished by me.</value>
+  </data>
+  <data name="SuccessHeader" xml:space="preserve">
+    <value>Success</value>
   </data>
 </root>

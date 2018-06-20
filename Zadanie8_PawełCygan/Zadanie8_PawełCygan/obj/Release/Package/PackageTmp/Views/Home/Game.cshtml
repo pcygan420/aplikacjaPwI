@@ -6,11 +6,11 @@
 <main role="main" id="main-container">
     <section id="second-section">
         <div class="game-info">
-            <div class="turn"><span>Ruch</span><span id="turn-info"> kółek</span></div>
+            <div class="turn"><span>@Html.Raw(Zadanie8_PawełCygan.Resources.Game.Move)</span><span id="turn-info"> @Html.Raw(Zadanie8_PawełCygan.Resources.Game.Circle)</span></div>
             <div class="stats">
-                <div class="circle-info">Wygrane kółek : <span id="circle"></span></div>
-                <div class="cross-info">Wygrane krzyżyków : <span id="cross"></span></div>
-                <div class="draw-info">Remisy : <span id="draw"></span></div>
+                <div class="circle-info">@Html.Raw(Zadanie8_PawełCygan.Resources.Game.CircleW) : <span id="circle"></span></div>
+                <div class="cross-info">@Html.Raw(Zadanie8_PawełCygan.Resources.Game.CrossW) : <span id="cross"></span></div>
+                <div class="draw-info">@Html.Raw(Zadanie8_PawełCygan.Resources.Game.Draw) : <span id="draw"></span></div>
             </div>
         </div>
         <div class="game-space">

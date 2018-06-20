@@ -4,6 +4,19 @@ var sign = { Circle : 0, Cross : 1 }
 var player = sign.Circle;
 var game_cells = [ [-1, -1, -1], [-1, -1, -1], [-1, -1, -1] ];
 var cells = [ ["00","01","02"], ["10","11","12"], ["20","21","22"] ];
+
+//get language
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') c = c.substring(1);
+        if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+    }
+    return "";
+}
+var language = getCookie("Language")
 	
 function Move(cell) {
 					
@@ -25,32 +38,58 @@ function Move(cell) {
 	}
 			
 	if(player == sign.Circle) {
-		player = sign.Cross;
-		document.getElementById("turn-info").innerHTML = " krzyżyków";
-	} else {
-		player = sign.Circle;
-		document.getElementById("turn-info").innerHTML = " kółek";
-	}
+        player = sign.Cross;
+        if (language == "en") {
+            document.getElementById("turn-info").innerHTML = " cross";
+        } else {
+            document.getElementById("turn-info").innerHTML = " krzyżyków";
+        }
+	} else { 
+        player = sign.Circle;
+        if (language == "en") {
+            document.getElementById("turn-info").innerHTML = " circle";
+        } else {
+            document.getElementById("turn-info").innerHTML = " kółek";
+        }
+    }
 			
 	//checking victory
 	if(move_number > 4) {
 			
 		var result = CheckBoard();
 		switch(result) {
-			case 0:
-				alert("Wygrana kółek");
+            case 0:
+
+                if (language == "en") {
+                    alert("Circle wins");
+                } else {
+                    alert("Wygrana kółek");
+                }
+
 				stats.CircleWin = stats.CircleWin + 1;
 				document.getElementById("circle").innerHTML = stats.CircleWin;
 				ResetBoard();
 				break;
-			case 1:
-				alert("Wygrana krzyżyków");
+            case 1:
+
+                if (language == "en") {
+                    alert("Cross wins");
+                } else {
+                    alert("Wygrana krzyżyków");
+                }
+
 				stats.CrossWin = stats.CrossWin + 1;
 				document.getElementById("cross").innerHTML = stats.CrossWin;
 				ResetBoard();
 				break;
-			case 2:
-				alert("Remis");
+            case 2:
+
+                if (language == "en") {
+                    alert("Draw");
+                } else {
+                    alert("Remis");
+                }
+
 				stats.Draws = stats.Draws + 1;
 				document.getElementById("draw").innerHTML = stats.Draws;
 				ResetBoard();
@@ -97,3 +136,8 @@ function CheckBoard() {
 	if(move_number == 9)
 		return 2;
 }
+
+
+    
+    
+
