@@ -74,8 +74,7 @@ namespace Zadanie8_PawełCygan.Resources {
         
         /// <summary>
         ///   Looks up a localized string similar to Except that Senegal’s M’Baye Niang had left the field and just at that moment had been approved by the ref to return. He spotted the action and raced to the ball with Bednarik completely unaware. &lt;br&gt;&lt;br&gt;
-        ///                Keeper Wojciech Szczesney figured out the situation and sped a good 40 yards out from his net. But it was too late. Niang got the ball and cruised toward the empty net for the easiest, though strangest, of scores. &lt;br&gt;&lt;br&gt;
-        ///                Poland Coach Adam Nawałka on same play: “I’m convi [rest of string was truncated]&quot;;.
+        ///                Keeper Wojciech Szczesney figured out the situation and sped a good 40 yards out from his net. But it was too late. Niang got the ball and cruised toward the empty net for the easiest, though strangest, of scores. &lt;br&gt;&lt;br&gt;“When I left the pitch, it was an attack for Poland,” Niang said aft [rest of string was truncated]&quot;;.
         /// </summary>
         public static string About2 {
             get {
