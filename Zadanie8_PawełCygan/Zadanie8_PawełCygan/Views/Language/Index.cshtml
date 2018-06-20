@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+<div id="language_option_container">
+    <div>
+        <h1 style="text-align:center;">Language:</h1>
+    </div>
+    <div id="language_list_container">
+        <ul>
+            <li>@Html.ActionLink("English", "Change", "Language", new { Language = "en" }, null)</li>
+            <li>@Html.ActionLink("Polish", "Change", "Language", new { Language = "pl" }, null)</li>
+        </ul>
+    </div>
+</div>
+

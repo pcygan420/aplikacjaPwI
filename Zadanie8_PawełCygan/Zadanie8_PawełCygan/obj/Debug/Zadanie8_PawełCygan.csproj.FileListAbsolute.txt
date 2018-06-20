@@ -89,3 +89,14 @@ C:\Users\Paweł\Desktop\Zadanie8_PawełCygan\Zadanie8_PawełCygan\obj\Debug\Zada
 C:\Users\Paweł\Desktop\Zadanie8_PawełCygan\Zadanie8_PawełCygan\obj\Debug\Zadanie8_PawełCygan.csproj.CopyComplete
 C:\Users\Paweł\Desktop\Zadanie8_PawełCygan\Zadanie8_PawełCygan\obj\Debug\Zadanie8_PawełCygan.dll
 C:\Users\Paweł\Desktop\Zadanie8_PawełCygan\Zadanie8_PawełCygan\obj\Debug\Zadanie8_PawełCygan.pdb
+C:\Users\Paweł\Desktop\Zadanie8_PawełCygan\Zadanie8_PawełCygan\obj\Debug\Zadanie8_PawełCygan.Resources.Layout.resources
+C:\Users\Paweł\Desktop\Zadanie8_PawełCygan\Zadanie8_PawełCygan\obj\Debug\Zadanie8_PawełCygan.csproj.GenerateResource.cache
+C:\Users\Paweł\Desktop\Zadanie8_PawełCygan\Zadanie8_PawełCygan\bin\pl\Zadanie8_PawełCygan.resources.dll
+C:\Users\Paweł\Desktop\Zadanie8_PawełCygan\Zadanie8_PawełCygan\obj\Debug\Zadanie8_PawełCygan.Resources.Layout.pl.resources
+C:\Users\Paweł\Desktop\Zadanie8_PawełCygan\Zadanie8_PawełCygan\obj\Debug\pl\Zadanie8_PawełCygan.resources.dll
+C:\Users\Paweł\Desktop\Zadanie8_PawełCygan\Zadanie8_PawełCygan\obj\Debug\Zadanie8_PawełCygan.Resources.Index.resources
+C:\Users\Paweł\Desktop\Zadanie8_PawełCygan\Zadanie8_PawełCygan\obj\Debug\Zadanie8_PawełCygan.Resources.Index.pl.resources
+C:\Users\Paweł\Desktop\Zadanie8_PawełCygan\Zadanie8_PawełCygan\obj\Debug\Zadanie8_PawełCygan.Resources.Form.resources
+C:\Users\Paweł\Desktop\Zadanie8_PawełCygan\Zadanie8_PawełCygan\obj\Debug\Zadanie8_PawełCygan.Resources.Form.pl.resources
+C:\Users\Paweł\Desktop\Zadanie8_PawełCygan\Zadanie8_PawełCygan\obj\Debug\Zadanie8_PawełCygan.Resources.Game.resources
+C:\Users\Paweł\Desktop\Zadanie8_PawełCygan\Zadanie8_PawełCygan\obj\Debug\Zadanie8_PawełCygan.Resources.Game.pl.resources

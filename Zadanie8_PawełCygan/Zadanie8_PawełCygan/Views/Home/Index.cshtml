@@ -5,14 +5,13 @@
 <main role="main" id="main-container">
     <section id="first-section">
         <div class="about-me">
-            <h1>Paweł Cygan</h1>
-            <img src="../../Images/computer.png" alt="computer" width="367" height="300" />
-
+            <div><h1>Paweł Cygan</h1></div>
+            
             <div>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec lacus velit. In quis arcu orci.
-                Donec lorem erat, scelerisque quis turpis non, iaculis pretium velit. In hac habitasse platea
+                <img src="../../Images/computer.png" alt="computer" width="367" height="300" /> Donec lorem erat, scelerisque quis turpis non, iaculis pretium velit. In hac habitasse platea
                 dictumst.
-
+                
                 Pellentesque suscipit, purus nec auctor sodales, quam mauris vestibulum lorem, nec accumsan magna
                 elit nec nunc. Integer semper scelerisque congue. Donec a arcu et diam accumsan venenatis. Quisque
                 vulputate dapibus libero, non ornare diam ornare id.
@@ -36,7 +35,7 @@
         </div>
 
         <div class="services">
-            <h1>Oferty usług</h1>
+            <h1>@Html.Raw(Zadanie8_PawełCygan.Resources.Index.Offer)</h1>
             <h6>Lorem ipsum dolor sit amet aliquet efficitur massa et tincidunt.</h6>
 
             <div class="helper-container">
@@ -69,7 +68,7 @@
         </div>
 
         <div class="success-section">
-            <h1>Sukcesy</h1>
+            <h1>@Html.Raw(Zadanie8_PawełCygan.Resources.Index.Success)</h1>
             <h6>Lorem ipsum lacinia augue id purus pharetra, at mattis diam hendrerit.</h6>
 
             <div class="success-section-container">

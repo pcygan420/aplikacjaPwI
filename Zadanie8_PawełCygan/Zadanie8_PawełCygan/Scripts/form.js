@@ -1,4 +1,17 @@
-﻿function Validate() {
+﻿//get language
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') c = c.substring(1);
+        if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+    }
+    return "";
+}
+var language = getCookie("Language")
+
+function Validate() {
     ValidateName();
     ValidateSurName();
 
@@ -42,7 +55,12 @@ function ValidatePassword() {
     if(pass1.value != pass2.value || pass1.value == "") {
         pass1.style.border = '1px solid red';
         pass2.style.border = '1px solid red';
-        document.getElementById('pass-error-info').innerHTML = 'Hasło musi zawierać przynajmniej 8 znaków, w tym 1 cyfrę, małą oraz dużą literę.';
+
+        if (language == "pl") {
+            document.getElementById('pass-error-info').innerHTML = 'Hasło musi zawierać przynajmniej 8 znaków, w tym 1 cyfrę, małą oraz dużą literę.';
+        } else {
+            document.getElementById('pass-error-info').innerHTML = 'Password must contains at least 8 characters including 1 number, lower case and upper case.';
+        }
     } else {
     	if(pass1.value.match(/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])([0-9a-zA-Z!@#\$%\^\&*\)\(+=._-]{8, })$/)) {
             document.getElementById('pass-error-info').innerHTML = "";

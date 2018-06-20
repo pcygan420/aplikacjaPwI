@@ -7,20 +7,20 @@
     <section id="third-section">
         <form id="registration-form" class="form-horizontal">
             <fieldset>
-                <legend>Rejestracja</legend>
+                <legend>@Html.Raw(Zadanie8_PawełCygan.Resources.Form.Registration)</legend>
 
                 <div class="form-group">
                     <div class="col-md-4">
-                        <label class="col-md-4 control-label" for="name-input">Imię</label>
-                        <input id="name-input" name="textinput" type="text" placeholder="imię" class="form-control input-md">
+                        <label class="col-md-4 control-label" for="name-input">@Html.Raw(Zadanie8_PawełCygan.Resources.Form.Name)</label>
+                        <input id="name-input" name="textinput" type="text" placeholder="@Html.Raw(Zadanie8_PawełCygan.Resources.Form.Name)" class="form-control input-md">
                         <span class="help-block"></span>
                     </div>
                 </div>
 
                 <div class="form-group">
                     <div class="col-md-4">
-                        <label class="col-md-4 control-label" for="surname-input">Nazwisko</label>
-                        <input id="surname-input" name="textinput" type="text" placeholder="nazwisko" class="form-control input-md">
+                        <label class="col-md-4 control-label" for="surname-input">@Html.Raw(Zadanie8_PawełCygan.Resources.Form.Surname)</label>
+                        <input id="surname-input" name="textinput" type="text" placeholder="@Html.Raw(Zadanie8_PawełCygan.Resources.Form.Surname)" class="form-control input-md">
                         <span class="help-block"></span>
                     </div>
                 </div>
@@ -28,32 +28,32 @@
                 <div class="form-group">
                     <div class="col-md-4">
                         <label class="col-md-4 control-label" for="email-input">Email</label>
-                        <input id="email-input" name="textinput" type="text" placeholder="email" class="form-control input-md">
+                        <input id="email-input" name="textinput" type="text" placeholder="Email" class="form-control input-md">
                         <span class="help-block"></span>
                     </div>
                 </div>
 
                 <div class="form-group">
                     <div class="col-md-4">
-                        <label class="col-md-4 control-label" for="password-input">Hasło</label>
-                        <input id="password-input" name="passwordinput" type="password" placeholder="hasło" class="form-control input-md">
+                        <label class="col-md-4 control-label" for="password-input">@Html.Raw(Zadanie8_PawełCygan.Resources.Form.Pass)</label>
+                        <input id="password-input" name="passwordinput" type="password" placeholder="@Html.Raw(Zadanie8_PawełCygan.Resources.Form.Pass)" class="form-control input-md">
                         <span class="help-block"></span>
                     </div>
                 </div>
 
                 <div class="form-group">
                     <div class="col-md-4">
-                        <label class="col-md-4 control-label" for="password-input2">Powtórz hasło</label>
-                        <input id="password-input2" name="passwordinput" type="password" placeholder="hasło" class="form-control input-md">
+                        <label class="col-md-4 control-label" for="password-input2">@Html.Raw(Zadanie8_PawełCygan.Resources.Form.RepeatPass)</label>
+                        <input id="password-input2" name="passwordinput" type="password" placeholder="@Html.Raw(Zadanie8_PawełCygan.Resources.Form.Pass)" class="form-control input-md">
                         <span id="pass-error-info" class="help-block"></span>
                     </div>
                 </div>
 
                 <div class="form-group">
                     <div class="col-md-4">
-                        <label class="col-md-4 control-label" for="select-country">Wybierz kraj</label>
+                        <label class="col-md-4 control-label" for="select-country">@Html.Raw(Zadanie8_PawełCygan.Resources.Form.Country)</label>
                         <select id="select-country" name="selectbasic" class="form-control">
-                            <option value="1">Polska</option>
+                            <option value="1">@Html.Raw(Zadanie8_PawełCygan.Resources.Form.Poland)</option>
                             <option value="2">USA</option>
                         </select>
                     </div>
@@ -61,14 +61,14 @@
 
                 <div class="form-group">
                     <div class="col-md-4">
-                        <label class="col-md-4 control-label" for="comment-area">Komentarz</label>
+                        <label class="col-md-4 control-label" for="comment-area">@Html.Raw(Zadanie8_PawełCygan.Resources.Form.Comment)</label>
                         <textarea class="form-control" id="comment-area" name="textarea"></textarea>
                     </div>
                 </div>
 
                 <div class="form-group">
                     <div class="col-md-4">
-                        <input type="button" class="btn btn-primary btnSeccion" id="validateButton" value="Potwierdź" onclick="Validate()" />
+                        <input type="button" class="btn btn-primary btnSeccion" id="validateButton" value="@Html.Raw(Zadanie8_PawełCygan.Resources.Form.Approve)" onclick="Validate()" />
                     </div>
                 </div>
             </fieldset>
